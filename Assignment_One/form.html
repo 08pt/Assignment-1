@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+</head>
+<body>
+    
+
+    <!--4. Create the HTML form having input fields as First 
+        Name and Last Name. Field to select the 1 skills out 
+        of 3 skills like VueJS, Angular JS and React JS. Field 
+        to select preferred location Bombay, Delhi , 
+        Kolkata , Chennai . User can select more than 
+        1 place also.-->
+
+        <form action="">
+
+             <!---First  Name Input field-->
+            
+             <label for="fname">First Name&nbsp;:</label><br>
+            <input type="text" name="fname" id="fname"><br><br>
+
+            
+            <!---Last Name Input field-->
+
+            <label for="lname">Last Name&nbsp;:</label><br>
+            <input type="text" name="lname" id="lname"><br>
+            <br><br>
+
+            <!---Skills Input field-->
+
+            <h3>Select The One Skills</h3>
+            <input type="radio" name="skills" id="skills">VueJS<br><br>
+            <input type="radio" name="skills" id="skills">Angular JS<br><br>
+            <input type="radio" name="skills" id="skills">React JS
+            <br><br><br><br>
+
+        <!---Location Input field-->
+
+            <h3>Can Select   more than one preferred Location </h3>
+
+            <input type="checkbox" name="location" id="location">Bombay<br><br>
+            <input type="checkbox" name="location" id="location">Delhi<br><br>
+            <input type="checkbox" name="location" id="location">Kolkat<br><br>
+            <input type="checkbox" name="location" id="location">Chennai<br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+
+       
+</body>
+</html>
